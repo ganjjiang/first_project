@@ -11,23 +11,23 @@
 
 ## 프로젝트 분석 절차 
 
-1. 환율의 특성 분석: 환율의 발전에 영향을 미치는 장비들의 변화를 파악하고, 해당 장비의 변화에 대한 변화를 분석한다.
-2. 경제지표 분석: 환율과 관련된 경제 지표들(실질 GDP, 인플레이션, 수출입 등)을 분석하여, 환율과 관계 관계를 파악한다.
-3. 데이터 수집: 수집된 데이터를 곰팡이로 표현하여 다양한 인사이트를 발견하고 보고 및 발표 자료 작성에 활용한다.
-4. 데이터 전처리 : 데이터를 수집하고 청소하고, 필요한 데이터만 추출하여 최적의 전처리 작업을 실시한다.
-5. 데이터 분석 : 수집한 데이터들 사이에 상관성을 분석하여 최종 모델에 넣을 변수를 골라낸다.
-6. 모델 생성 : 미세한 파라미터 조정으로 골라낸 변수들과 함께 최소의 오차값을 찾아낸다. 
+<b>1. 환율의 특성 분석</b>: 환율의 발전에 영향을 미치는 장비들의 변화를 파악하고, 해당 장비의 변화에 대한 변화를 분석한다.
+<b>2. 경제지표 분석</b>: 환율과 관련된 경제 지표들(실질 GDP, 인플레이션, 수출입 등)을 분석하여, 환율과 관계 관계를 파악한다.
+<b>3. 데이터 수집</b>: 수집된 데이터를 곰팡이로 표현하여 다양한 인사이트를 발견하고 보고 및 발표 자료 작성에 활용한다.
+<b>4. 데이터 전처리</b>: 데이터를 수집하고 청소하고, 필요한 데이터만 추출하여 최적의 전처리 작업을 실시한다.
+<b>5. 데이터 분석</b>: 수집한 데이터들 사이에 상관성을 분석하여 최종 모델에 넣을 변수를 골라낸다.
+<b>6. 모델 생성</b>: 미세한 파라미터 조정으로 골라낸 변수들과 함께 최소의 오차값을 찾아낸다. 
 
 ## 주요 분석 기능 
 ### 데이터 수집 
-    Requests,Selenium, Beautiful Soup을 이용한 환율 정보 크롤링
+    - Requests,Selenium, Beautiful Soup을 이용한 환율 정보 크롤링
 ### 데이터 전처리 
-    Pandas 라이브러리를 이용한  Time Stamp 맞추기
-    scikit-learn 라이브러리를 이용한 기타 데이터 전처리
+    - Pandas 라이브러리를 이용한  Time Stamp 맞추기
+    - scikit-learn 라이브러리를 이용한 기타 데이터 전처리
 ### 데이터 분석
-    시계열(ARIMA),  선형회귀 (Linear Regression) 등 모델들을 복합적으로 사용하여 시계열 데이터의 패턴을 파악
-    하이퍼파라메터와 교차검증을 통한 모델 성능 개선
-    matplotlib, seaborn 등을 통한 모델 예측 결과 시각화
+    - 시계열(ARIMA),  선형회귀 (Linear Regression) 등 모델들을 복합적으로 사용하여 시계열 데이터의 패턴을 파악
+    - 하이퍼파라메터와 교차검증을 통한 모델 성능 개선
+    - matplotlib, seaborn 등을 통한 모델 예측 결과 시각화
 
 ## 프로젝트 역할 분담 
 ### (조장) 최소현 
@@ -69,17 +69,17 @@
 
 
 ## 출처
-국제금융센터 https://www.kcif.or.kr/front/board/boardList.do?intSection1=2&intSection2=4&intBoardID=1
-한국은행 경제 통계 시스템 http://ecos.bok.or.kr
-IMF  http://www.imf.org/en/data
-World Bank https://data.worldbank.org
-BIS https://www.bis.org/
-Economic Policy Uncertainty  http://www.policyuncertainty.com/
-Bloomberg, CEIC
-산업통상자원부 https://www.motie.go.kr/motie/py/sa/investstatse/investstats.jsp
-실시간 환율 데이터,실시간 환율 데이터 Investing.com
-금융 데이터 Yahoo Finance:
-금융, 경제, 정치 등 다양한 분야 Quandl
-미국 연방준비은행(Federal Reserve)경제 지표 데이터  FRED
-월별 환율 정보 금융투자협회(KOFIA)
+국제금융센터 https://www.kcif.or.kr/front/board/boardList.do?intSection1=2&intSection2=4&intBoardID=1 <br>
+한국은행 경제 통계 시스템 http://ecos.bok.or.kr <br>
+IMF  http://www.imf.org/en/data <br>
+World Bank https://data.worldbank.org <br>
+BIS https://www.bis.org/ <br>
+Economic Policy Uncertainty  http://www.policyuncertainty.com/ <br>
+Bloomberg, CEIC <br>
+산업통상자원부 https://www.motie.go.kr/motie/py/sa/investstatse/investstats.jsp <br>
+실시간 환율 데이터,실시간 환율 데이터 Investing.com <br>
+금융 데이터 Yahoo Finance <br>
+금융, 경제, 정치 등 다양한 분야 Quandl <br>
+미국 연방준비은행(Federal Reserve)경제 지표 데이터  FRED <br>
+월별 환율 정보 금융투자협회(KOFIA) <br>
 
